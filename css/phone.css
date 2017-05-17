@@ -1,0 +1,438 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    
+    body {
+        background: radial-gradient(circle at 50% 5%, #f0f2f5, #fff);
+    }
+    
+    .thank-you {
+        font-size: 16px;
+    }
+    
+    .navToggle .icon:before {
+        top: -8px;
+        left: 0;
+    }
+    
+    .navToggle .icon:after {
+        top: 8px;
+        left: 0;
+    }
+    
+    
+    footer .title-bottom h2 span {
+        letter-spacing: 2px;
+    }
+    
+    
+    .share-button {
+        height: 36px;
+        width: 102px;
+        line-height: 36px;
+    }
+    
+    .share {
+        font-size: 16px;
+    }
+    
+    .share-item {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    
+    .find-button {
+        width: 69px;
+        height: 36px;
+        line-height: 36px;
+    }
+    
+    .find {
+        font-size: 16px;
+    }
+    
+    .find-item {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    
+    .track span {
+        font-size: 13px;
+    }
+    
+    .soc-find {
+        position: absolute;
+        left: 9.6em;
+        top: 9em;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 70px;
+        margin: 0;
+        z-index: 9;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        
+    }
+    
+    footer #drops {
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+    
+    footer .title-bottom h2 {
+        font-size: 12px;
+    }
+    
+    .author {
+        display: none;
+        left: 4em;
+    }
+    
+    .countTop {
+        display: none;
+        right: 1em;
+    }
+    
+    
+    .player-background {
+        display: none;
+        margin: -1.2em 0 0 0;
+    }
+    
+    .social {
+        transform: translateY(0);
+        opacity: 1;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    
+    .soc-share {
+        position: absolute;
+        top: 9em;
+        left: 3.2em;
+        z-index: 9;
+    }
+    
+    .topheader .social .icons li {
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .icons i {
+        font-size: 24px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        width: 50px;
+    }
+  
+    header {
+        z-index: 10;
+        height: 11em;
+        transform: inherit;
+        width: inherit;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    header #drops {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    header .topheader {
+        height: auto;
+        padding: 0px;
+        width: 100%;
+        left: 0;
+    }
+    
+    header figure {
+        bottom: -50px;
+        width: 114px;
+        height: 111px;
+        left: calc(87% - 100px);
+        transform: translateX(-200px);
+        opacity: 1;
+        transition: transform 1s ease-out, opacity .5s ease;
+    }
+    
+    header figure.active{
+        opacity: 0.9;
+        transform: translateX(-29px);
+        transition: transform 1s ease-out, opacity 2s ease;
+    }
+    
+    figure #logo {
+        max-width: 8rem;
+        height: 126px;
+    }
+    
+
+    .nav {
+        display: block;
+    }
+    
+    .nav.open {
+        display: block;
+    }
+    
+    .nav-left, .nav-right {
+        width: inherit;
+    }
+    header .menu .menu-ul .mobile {
+        display: block;
+    }
+    
+    #social {
+        display: block;
+        text-align: center;
+        padding-top: 35px;
+    }
+    
+    #social li {
+        display: inline-block;
+        border-bottom: none;
+    }
+    
+    #social li a {
+        border-bottom: none;
+    }
+    
+    header .menu ul .social-mobile a i {
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    
+    header .menu ul {
+        width: 100%;
+        padding-top: 5px;
+    }
+     
+    header .menu .menu-ul li {
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        z-index: 9999;
+        
+    }
+    
+    .nav li a {
+
+        letter-spacing: 0px;
+        
+    }
+    .nav li:after {
+         top: 0; 
+        
+    }
+    
+    .nav li.active:hover, .mobile.active:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav li.active:after {
+        height: 0;
+        background: transparent;
+    }
+    
+    .nav li.active:hover:after {
+        height: 0;
+        background: transparent;
+    }
+    
+    .nav li:after {
+        height: 0;
+        background: transparent;
+        
+    }
+    
+    header .menu ul li a {
+        display: block;
+        padding: 9px;
+        font-size: 20px;
+        letter-spacing: 0;
+        
+    }
+    
+    header .menu ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    
+    header .menu ul li:last-child {
+        border-bottom: 0px;
+    }
+    
+    
+    
+    header .menu-hide {
+        width: 100%;
+        left: -375px;
+        height: 49.85vh;
+        position: absolute;
+        z-index: 10;
+        transition: all .6s ease-in-out;
+        top: 11em;
+        /*top: 74px;*/
+    }
+    
+    .menu-hide.nav li {
+        transition: all .5s ease;
+        width: 100%;
+    }
+    .menu-hide.nav li:hover {
+        transition: all .5s ease;
+    }
+    
+    .menu-hide.show {
+        left: -25px;
+        background: rgba(34,39,44, 0.7);
+        transition: all .6s ease-in-out;
+    }
+    
+    header .menu:before {
+        display: none;
+    }
+
+    
+    
+    
+    
+    
+    
+    .navToggle {
+        position: absolute;
+        margin: 0;
+        left: 3.5em;
+        top: 4.7em;
+        height: 33px;
+        display: block;
+        transform: translateX(-100px);
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 2s ease;
+        -o-transition: transform 1s ease-out, opacity 2s ease;
+   	    -moz-transition: transform 1s ease-out, opacity 2s ease;
+   	    -webkit-transition: transform 1s ease-out, opacity 2s ease;
+    }
+    .navToggle.loaded {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    
+    .navToggle .icon {
+        top: 18px;
+        width: 30px;
+        border-radius: 0;
+        height: 2px;
+    }
+    
+    .navToggle.open {
+        z-index: 999;
+    }
+    
+    .navToggle .icon:before, .navToggle .icon:after {
+        width: 30px;
+        border-radius: 0;
+        height: 2px;
+    }
+    
+    
+    /*_____PLAYER_____*/
+    
+    .player {
+        pointer-events: none;
+        font-size: 16px;
+        margin: -4em 0 0 -4em;
+        bottom: 28px;
+        transform: translateY(-50px);
+        
+    }
+    .player.loaded {
+        pointer-events: auto;
+    }
+    
+    .big {
+        right: 15px;
+    }
+    
+    .track-desc .track span {
+        font-size: 14px;
+    }
+    
+    .track {
+        z-index: 9;
+        padding: 7px;
+        top: 1px;
+        top: 1px;
+        width: 224px;
+        left: 6.4em;
+    }
+    
+    .plaque::before {
+        left: -42px;
+        bottom: 0px;
+    }
+    
+    .plaque::after {
+        right: -42px;
+        bottom: 0px;
+    }
+    
+    .small {
+        top: -43px;
+    }
+    
+    .small.left {
+        float: left;
+        bottom: 54px;
+        /*right: 21px;*/
+        right: 29px;
+    }
+    
+    .small.right {
+        float: right;
+        bottom: 54px;
+        left: 0px;
+    }
+    
+    .small:active {
+        /*top: -50px;*/
+    }
+    
+    .plaque {
+        left: 50%;
+        margin: 0em 0 0 -72px;
+    }
+    
+    .volume {
+        display: none;
+    }
+    
+    footer .title-bottom {
+        top: 1.8em;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+
+      
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: landscape) {
+    
+
+
+
+}

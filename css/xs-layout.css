@@ -1,0 +1,452 @@
+@media screen and (max-width: 479px) {
+    
+    body {
+        background: radial-gradient(circle at 50% 5%, #f0f2f5, #fff);
+    }
+    
+    .soc-find {
+        position: absolute;
+        left: 8.3em;
+        top: 7.3em;
+    }
+    
+    .thank-you {
+        font-size: 12px;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 55px;
+        margin: 0;
+        z-index: 9;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        
+    }
+    
+    footer #drops {
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+    
+    
+    footer .title-bottom h2 {
+        font-size: 9px;
+        line-height: 1em;
+    }
+    
+    .author {
+        display: none;
+        left: 4em;
+    }
+    
+    .countTop {
+        display: none;
+        right: 1em;
+    }
+    
+    
+    .player-background {
+        display: none;
+        margin: -1.2em 0 0 0;
+    }
+    
+    .fader {
+        /*margin: -1em 0 0 0em;*/
+        margin: 0;
+        /*height: 250px;*/
+    }
+    
+    .fader img.slide {
+         height: 100%; 
+    }
+    
+    
+    .social {
+        transform: translateY(0);
+        opacity: 1;
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .icons i {
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+        
+    }
+    header .topheader .social li a i {
+        /*font-size: inherit;*/
+    }
+    
+    .soc-share {
+        position: absolute;
+        top: 7.3em;
+        left: 3.2em;
+        z-index: 9;
+    }
+    
+    .find {
+        font-size: 12px;
+    }
+    
+    .find-item {
+        height: 22px;
+    width: 22px;
+    line-height: 22px;
+    font-size: 11px;
+        
+    }
+    
+    .find-button {
+        width: 58px;
+        height: 30px;
+        line-height: 30px;
+        
+    }
+    
+    .topheader .social .icons li {
+        display: inline-block;
+        margin: 0;
+    }
+    
+    
+    
+    header {
+        z-index: 10;
+        height: 8.6em;
+        transform: inherit;
+        width: inherit;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    header #drops {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    
+    header .topheader {
+        height: auto;
+        padding: 0px;
+        width: 100%;
+        left: 0;
+    }
+    
+    header figure {
+        bottom: -50px;
+        width: 99px;
+        height: 95px;
+        transform: translateX(-200px);
+        opacity: 1;
+        transition: transform 1s ease-out, opacity .5s ease;
+        left: calc(87% - 85px);
+    }
+    
+    header figure.active{
+        opacity: 0.9;
+        transform: translateX(-29px);
+        transition: transform 1s ease-out, opacity 2s ease;
+    }
+    
+    figure #logo {
+        max-width: 7rem;
+        height: 112px;
+        /*margin: 0px;*/
+    }
+
+    .nav {
+        display: block;
+    }
+    
+    .nav.open {
+        display: block;
+    }
+    
+    .nav-left, .nav-right {
+        width: inherit;
+    }
+    header .menu .menu-ul .mobile {
+        display: block;
+    }
+    
+    #social {
+        display: block;
+        text-align: center;
+        padding-top: 35px;
+    }
+    
+    #social li {
+        display: inline-block;
+        border-bottom: none;
+    }
+    
+    #social li a {
+        border-bottom: none;
+    }
+    
+    header .menu ul .social-mobile a i {
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    
+    
+    
+    .nav li a {
+
+        letter-spacing: 0px;
+        
+    }
+    .nav li:after {
+         top: 0; 
+        
+    }
+    
+    .nav li.active:hover, .mobile.active:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+    
+    .nav li.active:after {
+        height: 0;
+        background: transparent;
+    }
+    
+    .nav li.active:hover:after {
+        height: 0;
+        background: transparent;
+    }
+    
+    .nav li:after {
+        height: 0;
+        background: transparent;
+        
+    }
+    
+    header .menu ul li a {
+        display: block;
+        padding: 4px;
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+    
+    header .menu ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    
+    header .menu ul li:last-child {
+        border-bottom: 0px;
+    }
+    header .menu ul {
+        width: 100%;
+        padding-top: 5px;
+    }
+     
+    header .menu .menu-ul li {
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 0;
+        z-index: 9999;
+        
+    }
+    
+    
+    
+    header .menu-hide {
+        width: 100%;
+        left: -375px;
+        height: 45.85vh;
+        position: absolute;
+        z-index: 10;
+        transition: all .6s ease-in-out;
+        top: 8.6em;
+    }
+    
+    .menu-hide.nav li {
+        transition: all .5s ease;
+        width: 100%;
+    }
+    .menu-hide.nav li:hover {
+        transition: all .5s ease;
+    }
+    
+    .menu-hide.show {
+        left: -25px;
+        background: rgba(34,39,44, 0.7);
+        transition: all .6s ease-in-out;
+    }
+    
+    header .menu:before {
+        display: none;
+    }
+
+    
+    .navToggle {
+        position: absolute;
+        margin: 0;
+        left: 3em;
+        top: 4.3em;
+        /*top: 3em;*/
+        height: 10px;
+        display: block;
+        transform: translateX(-100px);
+        opacity: 0;
+        transition: transform 1s ease-out, opacity 2s ease;
+        -o-transition: transform 1s ease-out, opacity 2s ease;
+   	    -moz-transition: transform 1s ease-out, opacity 2s ease;
+   	    -webkit-transition: transform 1s ease-out, opacity 2s ease;
+    }
+    .navToggle.loaded {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    
+    .navToggle .icon {
+        border-radius: 0;
+        top: 0;
+        height: 2px;
+        width: 25px;
+    }
+    
+    .navToggle.open {
+        z-index: 999;
+    }
+    
+    .navToggle .icon:before, .navToggle .icon:after {
+        width: 25px;
+        border-radius: 0;
+        height: 2px;
+        /*top: 7px;*/
+    }
+    
+    .navToggle .icon:after {
+        top: 7px;
+        left: 0;
+    }
+    
+    .navToggle .icon:before {
+        top: -7px;
+        left: 0;
+    }
+    
+ 
+    /*_____PLAYER_____*/
+    
+    .player {
+        pointer-events: none;
+        /*font-size: 16px;*/
+        font-size: 12px;
+        margin: -4em 0 0 -4em;
+        bottom: 21px;
+        transform: translateY(-50px);
+        
+    }
+    .player.loaded {
+        pointer-events: auto;
+    }
+    
+    .big {
+        right: 11px;
+    }
+    
+    .track {
+        z-index: 9;
+        padding: 5px;
+        top: 0px;
+        width: 180px;
+        left: 5.8em;
+    }
+    
+    .track span {
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    
+    .share {
+        font-size: 12px;
+    }
+    
+    .share-button {
+        height: 30px;
+        width: 77px;
+        line-height: 30px;
+    }
+    
+    
+    .share-item {
+        height: 22px;
+    width: 22px;
+    line-height: 22px;
+    font-size: 11px;
+        
+    }
+    
+    .plaque::before {
+        left: -33px;
+        bottom: 0px;
+    }
+    
+    .plaque::after {
+        right: -33px;
+        bottom: 0px;
+    }
+    
+    .small {
+        top: -32px;
+    }
+    
+    .small.left {
+        float: left;
+        bottom: 54px;
+        right: 23px;
+    }
+    
+    .small.right {
+        float: right;
+        bottom: 54px;
+        left: 1px;
+    }
+    
+    .plaque {
+        left: 50%;
+        margin: 0em 0 0 -54px;
+    }
+    
+    .volume {
+        display: none;
+    }
+    
+    footer .title-bottom {
+        top: 1.6em;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+    
+    footer .title-bottom h2 span {
+        letter-spacing: 1px;
+    }
+    
+
+    
+    
+}
+
+/*@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {*/
+/*    header .menu-hide {*/
+/*        width: 100%;*/
+/*        left: -375px;*/
+/*        height: 49.85vh;*/
+/*        position: absolute;*/
+/*        z-index: 10;*/
+/*        transition: all .6s ease-in-out;*/
+/*        top: 8.6em;*/
+/*    }*/
+/*}*/
